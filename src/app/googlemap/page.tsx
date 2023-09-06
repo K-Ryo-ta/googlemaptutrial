@@ -15,7 +15,7 @@ let markerPin = {
 
 const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!;
 
-const zoom = 15;
+const zoom = 17;
 
 const page = () => {
     const [map, setMap] = useState<any | null>(null);
