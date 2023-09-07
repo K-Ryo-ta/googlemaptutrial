@@ -8,10 +8,9 @@ export default function Home() {
 
   return (
     <div className='flex justify-center items-center min-h-screen'>
-      <button type="button" onClick={() => router.push('/googlemap')} className='block container mx-auto px-4  w-24'>
+      <button type="button" onClick={() => router.replace('/googlemap')} className='block container mx-auto px-4  w-24'>
         Click Me!
       </button>
     </div>
-
   )
 }

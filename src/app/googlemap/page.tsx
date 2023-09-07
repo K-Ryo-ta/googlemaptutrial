@@ -4,9 +4,11 @@ import { useRouter } from 'next/router' // `next/navigation` ではなく `next/
 import GoogleMapReact from 'google-map-react';
 
 const center = {
-    lat: 34.7293466708865,
-    lng: 135.49939605607292,
+    lat: 35.01036882045099,
+    lng: 135.68153868624793,
 };
+
+
 
 let markerPin = {
     lat: null,
@@ -15,7 +17,7 @@ let markerPin = {
 
 const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!;
 
-const zoom = 17;
+const zoom = 18;
 
 const page = () => {
     const [map, setMap] = useState<any | null>(null);
